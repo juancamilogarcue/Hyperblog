@@ -10,7 +10,7 @@ body
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    border: 0.5px solid #2192FF;
+    border: 1px solid #2192FF;
     color: aqua;
     border-radius: 40px;
 }
