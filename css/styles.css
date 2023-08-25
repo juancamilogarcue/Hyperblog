@@ -1,5 +1,22 @@
 body
 {
- text-align: center;
- font-family: Georgia, 'Times New Roman', Times, serif;   
+ background-color: #F94A29;
+ font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.cuadro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #2192FF;
+    color: aqua;
+    border-radius: 40px;
+}
+.afuera-de-cuadro{
+    display: flex;
+    font-size: 40px;
+    color: black;
+    justify-content: center;
 }
