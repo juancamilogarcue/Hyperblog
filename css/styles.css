@@ -1,22 +1,5 @@
-body
-{
- background-color: #F94A29;
- font-family: Georgia, 'Times New Roman', Times, serif;  
-}
-
-.cuadro{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    border: 1px solid #2192FF;
-    color: aqua;
-    border-radius: 40px;
-}
-.afuera-de-cuadro{
-    display: flex;
-    font-size: 40px;
-    color: black;
-    justify-content: center;
-}
+.parrafo{
+    font-family: 'Agdasima', sans-serif;
+    color: #272829;
+    size: 12 px;
+} 
