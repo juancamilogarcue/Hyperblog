@@ -1,22 +1,14 @@
-body
-{
- background-color: #F94A29;
- font-family: Georgia, 'Times New Roman', Times, serif;  
-}
-
-.cuadro{
+#footer{
+    background-color: transparent;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    border: 1px solid #2192FF;
-    color: aqua;
-    border-radius: 40px;
-}
-.afuera-de-cuadro{
-    display: flex;
-    font-size: 40px;
-    color: black;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Agdasima', sans-serif;
+    height: 60px;
+    color: #990000;
+    border: 5px solid #D4D925;
+    border-radius: 20px;
+    font-size: 16PX;
+    flex-wrap: nowrap;
 }
