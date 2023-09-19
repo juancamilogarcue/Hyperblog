@@ -1,22 +1,30 @@
 body
 {
- background-color: #F94A29;
- font-family: Georgia, 'Times New Roman', Times, serif;  
+    background-image: linear-gradient(
+    to bottom,
+    rgb(153, 0, 0),
+    rgb(255, 91, 0),
+    rgb(255, 238, 99)
+  );
+    font-family: 'Agdasima', sans-serif;  
 }
 
-.cuadro{
+#header{
+    background-image: url(../Imagenes/café.jpg);
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    border: 1px solid #2192FF;
-    color: aqua;
-    border-radius: 40px;
-}
-.afuera-de-cuadro{
-    display: flex;
-    font-size: 40px;
-    color: black;
     justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: 'Agdasima', sans-serif;
+    height: 600px;
+    color: #FFEE63;
+    border: 5px solid #99000A;
+    border-radius: 20px;
+    font-size: 160PX;
+    flex-wrap: nowrap;  
 }
+.tagline{
+    margin: 0px;
+    margin-right: 5px;
+}
+
