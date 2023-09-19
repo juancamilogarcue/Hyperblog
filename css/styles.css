@@ -23,13 +23,30 @@ body
     font-size: 160PX;
     flex-wrap: nowrap;  
 }
+
 .tagline{
     margin: 0px;
     margin-right: 5px;
 }
+
 .parrafo{
     font-family: 'Agdasima', sans-serif;
     color: #272829;
     size: 12 px;
 }
 
+#footer{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Agdasima', sans-serif;
+    font-weight: bold;
+    height: 60px;
+    color: #990000;
+    border: 5px solid #D4D925;
+    border-radius: 20px;
+    font-size: 16PX;
+    flex-wrap: nowrap;
+}
